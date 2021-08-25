@@ -1,0 +1,92 @@
+.main__scroller-gallery {
+    display: flex;
+    margin: 60px 2.5% 0 2.5%;
+    cursor: pointer;
+}
+
+.main__scroller-gallery figure {
+    margin: 0 !important;
+    width: 610px !important;
+    position: relative;
+    margin: 0 25px 0 0 !important;
+}
+
+.main__scroller-gallery figure img {
+    width: 580px;
+    height: 650px;
+    object-fit: cover;
+    
+}
+
+.main__scroller-gallery figure figcaption {
+    height: 166px;
+    position: absolute;
+    width: 580px;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    background: rgba(209, 169, 84, 0.9);
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.main__gallery-border {
+    width: 550px;
+    height: 126px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__gallery-border span {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.tns-liveregion {
+    display: none;
+}
+
+.tns-nav {
+    margin: 0 9px 0 9px;
+}
+
+.tns-nav-active {
+    width: 72px !important;
+    height: 0 !important;
+    border: 1px solid black !important;
+    background: black !important;
+    padding: 0 !important;
+}
+
+.tns-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.tns-controls [data-controls="prev"], [data-controls="next"] {
+    margin-top: 10px;
+    width: 9px;
+    height: 9px;
+    font-size: 0;
+    background-color:rgba(0, 0, 0, 0);
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.tns-controls [data-controls="prev"] {
+    transform: rotate(135deg);
+}
+
+.tns-controls [data-controls="next"] {
+    transform: rotate(-45deg);
+}

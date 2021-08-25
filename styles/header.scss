@@ -1,0 +1,45 @@
+.header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 3% 0 3%;
+}
+
+.header__logo {
+    margin-left: 6%;
+}
+
+.header__logo img{
+    width: 160px;
+    height: 87px;
+}
+
+.header__menu {
+    margin-top: 2.5%;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.header__menu a {
+    margin: 0px 21px;
+}
+
+.header__menu a:first-child {
+    padding: 7px 9px;
+    border: 1px solid rgba(209, 169, 84, 0.9);
+    color: #D1A954;
+    font-weight: 400 !important;
+}
+
+.header__menu a:hover {
+    color: #D1A954;
+    font-weight: 700;
+}
+
+.header__mobile-menu {
+    margin: 2% 10% 0 0;
+}
