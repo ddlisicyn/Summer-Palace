@@ -1,0 +1,39 @@
+.main__modal input, .main__modal input:focus {
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 540px;
+    size: 30;
+    color:gray;
+}
+
+.main__modal textarea, .main__modal textarea:focus {
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: 1px solid #D0D0D0;
+    color:gray;
+    padding: 20px 15px;
+    margin-top: 28px;
+}
+
+.main__modal hr {
+    width: 540px;
+    height: 1px;
+    border: 0;
+    background-color: #D0D0D0;
+    margin-top: 17px;
+}
+
+.main__modal input:nth-of-type(2) {
+    margin-top: 18px;
+}
+
+.main__modal input:nth-of-type(3) {
+    width: 182px;
+    height: 45px;
+    background: #D1A954;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 35px;
+}
